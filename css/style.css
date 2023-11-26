@@ -1,0 +1,71 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#profileDetails {
+    margin-bottom: 20px;
+}
+
+#updateProfile {
+    padding: 8px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#updateProfile:hover {
+    background-color: #3071a9;
+}
